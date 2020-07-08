@@ -4,7 +4,7 @@
 
     <groupId>br.com.damsete</groupId>
     <artifactId>spring-data-jpa-query-language</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1</version>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -109,6 +109,7 @@
                     <encoding>${project.build.sourceEncoding}</encoding>
                     <source>${java.version}</source>
                     <target>${java.version}</target>
+                    <release>${java.version}</release>
                 </configuration>
                 <dependencies>
                     <dependency>
@@ -322,7 +323,7 @@
         <connection>scm:git:git://github.com/andretads/spring-data-jpa-query-language.git</connection>
         <developerConnection>scm:git:git@github.com:andretads/spring-data-jpa-query-language.git</developerConnection>
         <url>https://github.com/andretads/spring-data-jpa-query-language</url>
-        <tag>HEAD</tag>
+        <tag>spring-data-jpa-query-language-0.0.1</tag>
     </scm>
 
     <reporting>
